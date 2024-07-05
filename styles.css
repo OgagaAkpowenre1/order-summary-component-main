@@ -143,6 +143,18 @@ button {
         max-width: 80vw;
     }
 
+    .order-summary-container .hero-img {
+        width:100%;
+        height: 150px;
+        border-radius: 20px 20px 0px 0px;
+        overflow: hidden;
+    }
+
+    .order-summary-container .order-summary-text {
+        padding: 5px;
+        text-align: center;
+    }
+
     .order-summary-container .order-summary-pricing {
         display: flex;
         align-items: center;
