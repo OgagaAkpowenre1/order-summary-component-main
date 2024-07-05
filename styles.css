@@ -137,3 +137,31 @@ button {
         max-width: 80vw;
     }
 }
+
+@media (max-width: 400px){
+    .order-summary-container {
+        max-width: 80vw;
+    }
+
+    .order-summary-container .order-summary-pricing {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .order-summary-container .order-summary-pricing img {
+        flex-basis: 10%;
+    }
+    
+    .order-summary-container .order-summary-pricing .order-summary-pricing-text {
+        flex-basis: 55%;
+        padding-left: 20px;
+    }
+
+    .order-summary-container .order-summary-buttons .cancel-btn  {
+        background: transparent;
+        color: hsl(224, 23%, 55%);
+        /* margin-bottom: 30px; */
+        padding: 10px 20px;
+    }
+}
